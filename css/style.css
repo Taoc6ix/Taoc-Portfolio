@@ -3,7 +3,7 @@
 
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
-    --first-color: hsl(0, 0%, 100%);
+    --first-color: hsl(0, 0%, 9%);
     --black-color: hsl(0, 0%, 14%);
     --black-color-light: hsl(0, 0%, 0%);
     --white-color: hsl(0, 0%, 100%);
