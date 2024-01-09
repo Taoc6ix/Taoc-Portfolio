@@ -10,6 +10,7 @@ function sendMessage(){
         sendername: document.querySelector("#name").value,
         senderemail: document.querySelector("#email").value,
         subject: document.querySelector("#subject").value,
+        telp: document.querySelector("#telp").value,
         message: document.querySelector("#message").value
 };
 
