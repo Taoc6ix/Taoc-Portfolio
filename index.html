@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Taoc.6ix | Portfolio </title>
+        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
         <!------------ Link css file ------------>
         <link rel="stylesheet" href="css/style.css">
@@ -72,7 +73,7 @@
                         </p>
                     </div>
                     <a href="https://drive.google.com/file/d/1_05Bz2DEX6mbLtANl8ctNvRefAM0WAmz/view?usp=sharing" class="button__ghost">
-                        <button>Preview My CV</button>
+                        <button>My Resume</button>
                     </a>
                     <div class="about__buttons">
                         <a href="https://github.com/taoc6ix" target="_blank" class="button__ghost">
@@ -160,6 +161,33 @@
                     </article>
                 </div>
             </section>
+
+        <!--CONTACT FORM-->
+        <section class="contact section" id="contact">
+            <div class="contact__form">
+                <h1>Kirim Pesan :</h1>
+                <div class="form__group">
+                    <label for="">Nama Anda / Perusahaan</label>
+                    <input type="text" id="name" placeholder="Muhammad Rafli Octavian">
+                </div>
+                <div class="form__group">
+                    <label for="">Email</label>
+                    <input type="text" id="email" placeholder="mro6@gmail.com">
+                </div>
+                <div class="form__group">
+                    <label for="">Subject Email</label>
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+                <div class="form__group">
+                    <label for="">Pesan</label>
+                    <textarea type="text" id="message"></textarea>
+                </div>
+                <div class="form__group">
+                    <button onclick="sendMessage();">Kirim</button>
+                </div>
+            </div>
+        </section>
+
         <!--==================== FOOTER ====================-->
         <footer class="footer">
             <div class="footer__container container grid">
@@ -167,15 +195,14 @@
                     <li>
                         <a href="#home" class="footer__link">Home</a>
                     </li>
-
                     <li>
                         <a href="#about" class="footer__link">About</a>
                     </li>
-
                     <li>
                         <a href="#projects" class="footer__link">Certificate</a>
                     </li>
                 </ul>
+                
                 <span class="footer__copy">
                     &#169; All Rights Reserved By
                     <a href="">Taoc.6ix</a>
@@ -188,8 +215,9 @@
             <i class="ri-arrow-up-s-line"></i>
         </a>
 
-        <!--=============== MAIN & TYPE JS ===============-->
+        <!--============== JS ===============-->
         <script src="js/script.js"></script>
         <script src="js/type.js"></script>
+        <script src="js/email.js"></script>
     </body>
 </html>

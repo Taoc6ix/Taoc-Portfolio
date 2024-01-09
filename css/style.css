@@ -347,6 +347,16 @@ img {
     margin-top: -3em;
 }
 
+.home__container button{
+    background: whitesmoke;
+
+}
+
+.home__container button:hover{
+    background: rgb(52, 166, 201);
+    color: black;
+}
+
 .about__buttons{
     /* margin-top: 0.5rem; */
     display: flex;
@@ -693,6 +703,58 @@ button:hover {
     text-align: center;
     font-size: 50px;
     margin-bottom: 15px;
+}
+
+/*===== FORM MESSAGE =====*/
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__form{
+    padding: 25px;
+    width: 600px;
+}
+
+.contact__form h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.form__group{
+    margin-bottom: 25px;
+}
+
+.form__group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.form__group input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.form__group button{
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 12px 40px;
+    font-size: 15px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.form__group button:hover{
+    background: rgb(52, 166, 201);
 }
 
 /*=============== FOOTER ===============*/
